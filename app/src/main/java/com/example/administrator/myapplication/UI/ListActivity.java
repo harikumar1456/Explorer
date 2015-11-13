@@ -74,33 +74,7 @@ public class ListActivity extends AppCompatActivity {
                 }
 
 
-//                for(MoselClass.Results results:model.results)
-//                {
-//                    for(Photos photos:results.photos)
-//                    {
-//                        System.out.println(photos.photo_reference);
-//                    }
-//
-//                }
-
-//               for(MoselClass.Results result1 : model.results)
-//                {
-//                   System.out.print("hh"+result1.photos);
-//
-//                   for(MoselClass.Results.Photos photos : result1.photos)
-//                    {
-//                        photo[j] = photos.photo_reference;
-//                        System.out.print(photo[j]);
-//                        photo[j]=photos.width;
-//                        j = j + 1;
-//
-//                    }
-//
-//                }
-
-
-
-               // System.out.println(photo[0]+"reference");
+//                
                 list.setAdapter(new List(ListActivity.this,hotelList,icon));
 
             }
